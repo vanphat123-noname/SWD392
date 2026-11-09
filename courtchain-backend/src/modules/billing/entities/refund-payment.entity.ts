@@ -1,3 +1,4 @@
+// Name: Lê Văn Phát ; ngày edit : 2026-11-09
 import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
 
 @Entity('refund_payment')

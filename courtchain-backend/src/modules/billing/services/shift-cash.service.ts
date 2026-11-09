@@ -1,3 +1,4 @@
+// Name: Lê Văn Phát ; ngày edit : 2026-11-09
 import { BadRequestException, Injectable, NotFoundException } from '@nestjs/common';
 import { EntityManager } from 'typeorm';
 import { Shift } from '../entities/shift.entity';

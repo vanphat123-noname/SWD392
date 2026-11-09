@@ -1,3 +1,4 @@
+// Name: Lê Văn Phát ; ngày edit : 2026-11-09
 export type CancellationStatus = 'REQUESTED' | 'UNDER_REVIEW' | 'APPROVED' | 'REJECTED' | 'COMPLETED';
 export type RefundStatus = 'PENDING' | 'APPROVED' | 'REJECTED' | 'COMPLETED';
 
