@@ -61,6 +61,7 @@ export default function RefundManagementPage() {
         <div>
           <p className="text-sm font-semibold uppercase tracking-wide text-emerald-700">CourtChain / Billing</p>
           <h1 className="mt-1 text-2xl font-bold">Hủy sân & hoàn tiền</h1>
+          <p className="mt-2 inline-flex rounded-full bg-amber-100 px-2.5 py-1 text-xs font-semibold text-amber-900">DEMO · dữ liệu lưu trên trình duyệt, không phát sinh giao dịch thật</p>
         </div>
         <button onClick={() => load().catch(() => setNotice('Không thể tải lại dữ liệu.'))}
           className="rounded border border-slate-300 px-3 py-2 text-sm font-medium hover:bg-slate-50">
